@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const brands = [
-  "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776087584/images_1_1_a0u1p9.png",
-  "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776086908/images_1_eqvbbs.png",
-  "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776086905/images_4_zxkmri.jpg",
-  "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776086904/images_5_f7yh2s.jpg",
-  "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776086896/unnamed_a8eday.png"
+  "images.png",
+  "images (1).png",
+  "images (4).jpeg",
+  "images (5).jpeg",
+  "unnamed.png",
 ];
 
 export default function TrustSection() {
@@ -15,35 +15,38 @@ export default function TrustSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6">
-          Trusted by <span className="text-[var(--color-gold)]">Leading Brands</span>
+          Trusted by{" "}
+          <span className="text-[var(--color-gold)]">Leading Brands</span>
         </h2>
 
         <p className="max-w-2xl mx-auto text-lg text-gray-400 mb-16">
-          We have delivered successful celebrity promotions for top brands and growing businesses across Telugu states.
+          We have delivered successful celebrity promotions for top brands and
+          growing businesses across Telugu states.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 opacity-90 p-4">
           {brands.map((brand, idx) => (
-                 <div
-                 key={idx}
-                 className="flex items-center justify-center w-36 h-36 md:w-48 md:h-48 rounded-xl bg-white shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] overflow-hidden p-4"
-               >
-                 <div className="relative w-full h-full">
-                   <Image
-                     src={brand}
-                     alt={`Trusted Brand ${idx + 1}`}
-                     fill
-                     className="object-contain"
-                     unoptimized
-                   />
-                 </div>
-               </div>
+            <div
+              key={idx}
+              className="flex items-center justify-center w-36 h-36 md:w-48 md:h-48 rounded-xl bg-white shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(212,175,55,0.3)] overflow-hidden p-4"
+            >
+              <div className="relative w-full h-full">
+                <Image
+                  src={brand}
+                  alt={`Trusted Brand ${idx + 1}`}
+                  fill
+                  className="object-contain"
+                  unoptimized
+                />
+              </div>
+            </div>
           ))}
         </div>
-      <div className="mt-24 max-w-5xl mx-auto px-4 sm:px-0 text-center">
+        <div className="mt-24 max-w-5xl mx-auto px-4 sm:px-0 text-center">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-white mb-10 leading-relaxed max-w-4xl mx-auto">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[var(--color-gold)] to-yellow-200 drop-shadow-sm">
-              &ldquo;మీ బిజినెస్ కి కూడా సెలబ్రిటీ బ్రాండ్ అంబాసిడర్ ఉండొచ్చు!&rdquo;
+              &ldquo;మీ బిజినెస్ కి కూడా సెలబ్రిటీ బ్రాండ్ అంబాసిడర్
+              ఉండొచ్చు!&rdquo;
             </span>
           </h3>
           <div className="relative w-full rounded-2xl lg:rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)] border border-[var(--color-gold)]/20 group">
