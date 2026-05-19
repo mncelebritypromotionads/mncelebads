@@ -28,6 +28,7 @@ const celebritiesData: Record<string, { name: string; image: string }[]> = {
     { name: "", image: "purna.jpeg" },
     { name: "", image: "prudhvi.jpeg" },
     { name: "", image: "pridhvi.jpeg" },
+    { name: "", image: "kamna.jpeg" },
     { name: "", image: "premakavali.jpeg" },
   ],
   tv: [
@@ -53,6 +54,7 @@ const celebritiesData: Record<string, { name: string; image: string }[]> = {
     { name: "", image: "maanas.jpeg" },
     { name: "", image: "lasya.jpeg" },
     { name: "", image: "ashu.jpeg" },
+    { name: "", image: "noel.jpeg" },
   ],
   influencers: [
     { name: "", image: "sathvik.jpeg" },
