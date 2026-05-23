@@ -30,8 +30,7 @@ const events = [
     celebrity: "Vishnu Priya & Anchor Ravi",
     description:
       "Successfully coordinated celebrity guests Vishnu Priya and Anchor Ravi for a grand wedding event, adding glamour and special attraction to the celebration.",
-    image:
-      "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776150225/1776149920949_zamthb.png",
+    image: "gunturevent.jpeg",
     imagePosition: "object-[center_20%]",
   },
   {
@@ -40,8 +39,7 @@ const events = [
     celebrity: "Hyper Aadi Team",
     description:
       "Successfully coordinated Hyper Aadi team for the Annual Day celebrations, creating a memorable and engaging event experience for students and audience.",
-    image:
-      "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776150566/IMG_20260414_121629_qdlw27.png",
+    image: "tevent.jpeg",
     imagePosition: "object-top",
   },
 ];

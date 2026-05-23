@@ -51,7 +51,7 @@ export default function TrustSection() {
           </h3>
           <div className="relative w-full rounded-2xl lg:rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)] border border-[var(--color-gold)]/20 group">
             <Image
-              src="https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776161419/1776157243660_ccqgqv.png"
+              src="ccbrand.jpeg"
               alt="Celebrity Brand Ambassador"
               width={1200}
               height={600}

@@ -17,8 +17,7 @@ const services = [
   {
     title: "Celebrity Store Visits",
     description: "Celebrity visits your business",
-    image:
-      "https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776147455/WhatsApp_Image_2026-04-14_at_11.31.04_emdmso.jpg",
+    image: "cevents.jpeg",
     features: [
       "Shoot at your location",
       "Starting ₹35,000+",
@@ -124,7 +123,7 @@ export default function ServicesSection() {
         <div className="mt-20 max-w-5xl mx-auto px-4 sm:px-0">
           <div className="relative w-full rounded-2xl lg:rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)] border border-[var(--color-gold)]/20 group">
             <Image
-              src="https://res.cloudinary.com/dhe3ay2ry/image/upload/v1776161418/IMG-20260414-WA0110_ivjjvp.jpg"
+              src="pbanner.jpeg"
               alt="Promotional Services Banner"
               width={1200}
               height={600}
